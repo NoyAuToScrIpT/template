@@ -8,7 +8,7 @@ echo "echo -e ' | _ )/ _ \ \ / / __| __| \| | '" >> /etc/profile.d/xam.sh
 echo "echo -e ' | _ \ (_) \ V /\__ \ _|| .` | '" >> /etc/profile.d/xam.sh
 echo "echo -e ' |___/\___/ |_| |___/___|_|\_| '" >> /etc/profile.d/xam.sh
 echo "echo 'Welcome to BoysenVPN Panel by: Jrc' | lolcat" >> /etc/profile.d/xam.sh
-echo "echo 'Script by: Boysen'" >> /etc/profile.d/xam.sh
+echo "echo 'Script by: Boysen' >> /etc/profile.d/xam.sh
 }
 
 function InsFiles(){
