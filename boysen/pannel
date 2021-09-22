@@ -3,10 +3,10 @@
 function InsProfile(){
 echo 'clear' > /etc/profile.d/xam.sh
 echo 'echo '' > /var/log/syslog' >> /etc/profile.d/xam.sh
-echo "echo '___  _____   _____ ___ _  _ " >> /etc/profile.d/xam.sh
-echo "echo '| _ )/ _ \ \ / / __| __| \| |" >> /etc/profile.d/xam.sh
-echo "echo '| _ \ (_) \ V /\__ \ _|| .` |" >> /etc/profile.d/xam.sh
-echo "echo '|___/\___/ |_| |___/___|_|\_|" >> /etc/profile.d/xam.sh
+echo "echo '___  _____   _____ ___ _  _ "' >> /etc/profile.d/xam.sh
+echo "echo '| _ )/ _ \ \ / / __| __| \| |"' >> /etc/profile.d/xam.sh
+echo "echo '| _ \ (_) \ V /\__ \ _|| .` |"' >> /etc/profile.d/xam.sh
+echo "echo '|___/\___/ |_| |___/___|_|\_|"' >> /etc/profile.d/xam.sh
 echo "echo 'Script by: Boysen'" >> /etc/profile.d/xam.sh
 }
 
