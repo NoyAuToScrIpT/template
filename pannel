@@ -110,5 +110,5 @@ echo -e "Configuring Cronjobs..."
  clear
  cd ~
 bash /etc/profile.d/xam.sh
-echo "Installation Success !"
-echo "pannel Boysen VPN Successfully Installed"
+echo -e "Installation Success !"
+echo -e "pannel Boysen VPN Successfully Installed"
