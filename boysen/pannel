@@ -3,22 +3,7 @@
 function InsProfile(){
 echo 'clear' > /etc/profile.d/xam.sh
 echo 'echo '' > /var/log/syslog' >> /etc/profile.d/xam.sh
-echo "echo '  =============              =============     ||============||***||***||============||'" >> /etc/profile.d/xam.sh
-echo "echo '   \**=======**\            /**=======**/      ||============||***||***||============||'" >> /etc/profile.d/xam.sh
-echo "echo '    \**=======**\          /**=======**/       ||============||***||***||============||'" >> /etc/profile.d/xam.sh
-echo "echo '     \**=======**\        /**=======**/                      ||***||***||'" >> /etc/profile.d/xam.sh
-echo "echo '      \**=======**\      /**=======**/                       ||***||***||'" >> /etc/profile.d/xam.sh
-echo "echo '       \**=======**\    /**=======**/                        ||***||***||'" >> /etc/profile.d/xam.sh
-echo "echo '        \**=======**\**/**=======**/           =========     ||***||***||'" >> /etc/profile.d/xam.sh
-echo "echo '         \**=======******=======**/            ||*****||     ||***||***||'" >> /etc/profile.d/xam.sh
-echo "echo '         /**=======******=======**\            ||*****||     ||***||***||'" >> /etc/profile.d/xam.sh
-echo "echo '        /**=======**/**\**=======**\           ||*****||     ||***||***||'" >> /etc/profile.d/xam.sh
-echo "echo '       /**=======**/    \**=======**\          ||*****||     ||***||***||'" >> /etc/profile.d/xam.sh
-echo "echo '      /**=======**/      \**=======**\         ||*****||=====||***||***||'" >> /etc/profile.d/xam.sh
-echo "echo '     /**=======**/        \**=======**\        ||*****||=====||***||***||'" >> /etc/profile.d/xam.sh
-echo "echo '    /**=======**/          \**=======**\        \*****||=====||***||***||'" >> /etc/profile.d/xam.sh
-echo "echo '   =============            =============        \===========||***||***||'" >> /etc/profile.d/xam.sh
-echo "echo 'Welcome to BoysenVPN Panel by: Jrc' | lolcat" >> /etc/profile.d/xam.sh
+
 echo "echo 'Script by: Boysen'" >> /etc/profile.d/xam.sh
 }
 
