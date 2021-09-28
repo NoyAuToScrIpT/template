@@ -1,14 +1,14 @@
 #!/bin/bash
 
 function InsProfile(){
-echo 'clear' > /etc/profile.d/xam.sh
-echo 'echo '' > /var/log/syslog' >> /etc/profile.d/xam.sh
-echo "echo -e ' ___  _____   _____ ___ _  _   '" >> /etc/profile.d/xam.sh
-echo "echo -e ' | _ )/ _ \ \ / / __| __| \| | '" >> /etc/profile.d/xam.sh
-echo "echo -e ' | _ \ (_) \ V /\__ \ _||  / | '" >> /etc/profile.d/xam.sh
-echo "echo -e ' |___/\___/ |_| |___/___|_|\_| '" >> /etc/profile.d/xam.sh
-echo "echo 'Welcome to BoysenVPN Panel by: Jrc' | lolcat" >> /etc/profile.d/xam.sh
-echo "echo 'Script by: Boysen'" >> /etc/profile.d/xam.sh
+echo 'clear' > /etc/profile.d/jrc.sh
+echo 'echo '' > /var/log/syslog' >> /etc/profile.d/jrc.sh
+echo "echo -e ' ___  _____   _____ ___ _  _   '" >> /etc/profile.d/jrc.sh
+echo "echo -e ' | _ )/ _ \ \ / / __| __| \| | '" >> /etc/profile.d/jrc.sh
+echo "echo -e ' | _ \ (_) \ V /\__ \ _||  / | '" >> /etc/profile.d/jrc.sh
+echo "echo -e ' |___/\___/ |_| |___/___|_|\_| '" >> /etc/profile.d/jrc.sh
+echo "echo 'Welcome to BoysenVPN Panel by: Jrc' | lolcat" >> /etc/profile.d/jrc.sh
+echo "echo 'Script by: Boysen'" >> /etc/profile.d/jrc.sh
 }
 
 function InsFiles(){
@@ -109,6 +109,6 @@ echo -e "Configuring Cronjobs..."
  InsCron
  clear
  cd ~
-bash /etc/profile.d/xam.sh
+bash /etc/profile.d/jrc.sh
 echo "Installation Success !"
 echo "pannel Boysen VPN Successfully Installed"
